@@ -42,6 +42,7 @@ webapp> curl https://localhost:7111/weatherforecast
 
 > **TIPS**: Use only single tool/IDE here, VSCODE, with mutliple terminals saves some efforts by not needing to switch to other tools. There is no need to use a separate browser.
 
+
 `Ctrl+C` to kill the running application.
 
 &nbsp;

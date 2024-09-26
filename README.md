@@ -34,4 +34,3 @@ The journey is divived to several documents for better readability. We first tou
 
 1. [Containerise a web api application with Docker](WebApp/README.md)
 2. [Publish containerised app to Azure App Service](README.AppService.md)
-
