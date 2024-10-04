@@ -15,7 +15,7 @@ variables:
   containerRegistry: 'acrcorpitnpdsea01.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/WebApp/Dockerfile'
   tag: '$(Build.BuildId)'
-  azureSubscription: '3a4d3d1e-130c-46de-b120-f7b828e6bd41'
+  azureSubscription: 'AzureDevOps'
   appName: 'app-ivisitwebserver-npd'
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
