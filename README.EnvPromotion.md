@@ -61,7 +61,7 @@ The staging web app requires access to Azure Container Registry to pull the imag
 
 | Variable | Value |
 | --- | --- |
-| ASPNETCORE_ENVIRONMENT | staging |
+| ASPNETCORE_ENVIRONMENT | Staging |
 | DOCKER_REGISTRY_SERVER_PASSWORD | Check the Access Keys section of container repository `acr` |
 | DOCKER_REGISTRY_SERVER_URL | Check the Access Keys section of container repository `acr` |
 | DOCKER_REGISTRY_SERVER_USERNAME | Check the Access Keys section of container repository `acr` |
