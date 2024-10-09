@@ -1,4 +1,4 @@
-# Develop with container
+# Develop with Container
 
 In previous section, we started with containerization on an existing web app and ended with deployment to Azure App Service.
 
@@ -12,9 +12,11 @@ It is all possible to develop app in container because of 2 key reaons:
 
 Let's get started.
 
+&nbsp;
+
 > **NOTES**: 
-> - Docker Desktop is paid product if the licence conditions are met. You may find alternatives **[Docker Engine](https://docs.docker.com/engine/)** if it suits your needs.
-> - VSCODE has an extension for developing app in container [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+> - Docker Desktop is a paid product if the licence conditions are met. You may find alternatives **[Docker Engine](https://docs.docker.com/engine/)** if it suits your needs.
+> - VSCODE has an extension for developing app in container, [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 
 &nbsp;
 

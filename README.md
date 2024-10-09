@@ -19,7 +19,7 @@ The journey is divided to several documents and each covers single topic. We fir
 
 In section 2, we quickly explain how container helps in developing app in a team. We have not touch on how container beneficial to application development, we are dedicating section 2 for this purpose. 
 
-1. [Develop with container](WebApp/README.Develop.md)
+1. [Develop with Container](WebApp/README.Develop.md)
 
 &nbsp;
 
