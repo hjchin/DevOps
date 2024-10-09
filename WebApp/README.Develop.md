@@ -2,13 +2,19 @@
 
 In previous section, we started with containerization on an existing web app and ended with deployment to Azure App Service.
 
-In this document, we explain how to develop web app with container. Imagine that you have a new member just onboarded to the team. Typically, the new member has to install all dependencies and tools before the work could start. He not only has to install the same version of the dependencies and sometimes same version for the tools as well to get started. It could take up 1 day or 2 or even longer.
+In this document, we explain how to develop web app with container. Imagine that you have a new member just onboarded to the team. Typically, the new member has to install all dependencies and tools before the work could start. He has to install not only the dependencies with same version but also the tools with same version to get started. It could take up 1 day or 2 or even longer.
 
-Apart from ensuring the same dependencies in development and production environment, container helps developer to get the development environment ready so much easier compared to the old way. New member of the team could kick start development in seconds. It is all possible because container encapsulates the dependencies in it and tool `docker compose watch` auto build the app when there is change in the source files.
+Apart from ensuring the same dependencies in development and production environment, container helps developer to get the development environment ready so much easier compared to the old way. New member of the team could kick start development in seconds. 
+
+It is all possible to develop app in container because of 2 key reaons:
+- Container encapsulates the dependencies in it 
+- Tool such as `docker compose watch` auto builds the app when there is change in the source files.
 
 Let's get started.
 
-> **NOTES**: Docker Desktop is paid product if the licence conditions are met. You may find alternatives **[Docker Engine](https://docs.docker.com/engine/)** if it suits your needs.
+> **NOTES**: 
+> - Docker Desktop is paid product if the licence conditions are met. You may find alternatives **[Docker Engine](https://docs.docker.com/engine/)** if it suits your needs.
+> - VSCODE has an extension for developing app in container [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 &nbsp;
 

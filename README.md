@@ -2,13 +2,11 @@
 
 This documents a journey of app containerisation and cloud native application migration.
 
-The journey is divided to several documents and each covers single topic. We first touch on how to containerize a web app in local development. The second step shows how to publish Azure Web app for Container. We then explain how to automate the publish task with Azure DevOps. Lastly, we finish the first section with web app environment promotion.
-
-In section 2, we quickly explain how container helps in developing app in a team. We have not touch on how container beneficial to application development in previous section. We dedicate section 2 for this purpose. 
-
 &nbsp;
 
 ## Section 1
+
+The journey is divided to several documents and each covers single topic. We first touch on how to containerize a web app in local development. The second step shows how to publish Azure Web app for Container. We then explain how to automate the publish task with Azure DevOps. Lastly, we finish the first section with web app environment promotion.
 
 1. [Containerize a web api application with Docker](WebApp/README.md)
 2. [Publish containerized app to Azure App Service](README.AppService.md)
@@ -18,6 +16,8 @@ In section 2, we quickly explain how container helps in developing app in a team
 &nbsp;
 
 ## Section 2
+
+In section 2, we quickly explain how container helps in developing app in a team. We have not touch on how container beneficial to application development, we are dedicating section 2 for this purpose. 
 
 1. [Develop with container](WebApp/README.Develop.md)
 
@@ -36,7 +36,7 @@ Key technologies used in this document are:
 * cURL
 * GitHub
 
-The key tool used in this document is VSCODE and terminal.
+The key tools used in this document are VSCODE and terminal.
 
 &nbsp;
 
