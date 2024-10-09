@@ -20,7 +20,7 @@ Launch Docker Desktop.
 
 ## STEP 1: Add Develop Specification to compose.yaml
 
-Open compose.xml and add below to the file.
+Open compose.yaml and add below to the file.
 
 ```
 ...
@@ -54,13 +54,13 @@ Watch enabled
 
 Based on the log, the app is running and it is being watched.
 
-We verify if the running service is OK. Hit the URL `http://localhost:8080/weatherforecast` on browser. The response carries only 1 object. The app is running production environment. One object in the response is expected.
+We first verify if the running service is OK. Hit the URL `http://localhost:8080/weatherforecast` on browser. The response carries only 1 object. The app is running production environment. We are expecting only 1 object in the response.
 
 &nbsp;
 
 ## STEP 3: Make changes to the app
 
-Next, we modify appsettings.json to trigger the watch. Change the value of `ResultCount` to 30. We should expect the service returns 30 objects.
+Next, we modify appsettings.json to trigger the watch. Change the value of `ResultCount` to 30. It means the service returns 30 objects.
 
 ```
 ...
@@ -77,7 +77,9 @@ Rebuilding service "server" after changes were detected...
 service "server" successfully built
 ```
 
-> **NOTES**: If you have turn on autosave in IDE, the build will be triggered very often.
+> **NOTES**: If you have turn on autosave in IDE, the build will be whenever the file is autosaved by IDE.
+
+&nbsp;
 
 Refresh `http://localhost:8080/weatherforecast` on browser and we will see 30 objects in the response.
 
@@ -95,157 +97,8 @@ Refresh `http://localhost:8080/weatherforecast` on browser and we will see 30 ob
     "temperatureF": 107,
     "summary": "Warm"
   },
-  {
-    "date": "2024-10-12T06:59:58.4825468+00:00",
-    "temperatureC": -9,
-    "temperatureF": 16,
-    "summary": "Scorching"
-  },
-  {
-    "date": "2024-10-13T06:59:58.482547+00:00",
-    "temperatureC": 34,
-    "temperatureF": 93,
-    "summary": "Freezing"
-  },
-  {
-    "date": "2024-10-14T06:59:58.4825471+00:00",
-    "temperatureC": -20,
-    "temperatureF": -3,
-    "summary": "Sweltering"
-  },
-  {
-    "date": "2024-10-15T06:59:58.4825476+00:00",
-    "temperatureC": 12,
-    "temperatureF": 53,
-    "summary": "Freezing"
-  },
-  {
-    "date": "2024-10-16T06:59:58.4825479+00:00",
-    "temperatureC": 35,
-    "temperatureF": 94,
-    "summary": "Freezing"
-  },
-  {
-    "date": "2024-10-17T06:59:58.482548+00:00",
-    "temperatureC": 0,
-    "temperatureF": 32,
-    "summary": "Warm"
-  },
-  {
-    "date": "2024-10-18T06:59:58.4825481+00:00",
-    "temperatureC": 12,
-    "temperatureF": 53,
-    "summary": "Bracing"
-  },
-  {
-    "date": "2024-10-19T06:59:58.4825483+00:00",
-    "temperatureC": 9,
-    "temperatureF": 48,
-    "summary": "Freezing"
-  },
-  {
-    "date": "2024-10-20T06:59:58.4825484+00:00",
-    "temperatureC": 43,
-    "temperatureF": 109,
-    "summary": "Sweltering"
-  },
-  {
-    "date": "2024-10-21T06:59:58.4825485+00:00",
-    "temperatureC": 43,
-    "temperatureF": 109,
-    "summary": "Balmy"
-  },
-  {
-    "date": "2024-10-22T06:59:58.4825486+00:00",
-    "temperatureC": 29,
-    "temperatureF": 84,
-    "summary": "Cool"
-  },
-  {
-    "date": "2024-10-23T06:59:58.4825487+00:00",
-    "temperatureC": -5,
-    "temperatureF": 24,
-    "summary": "Scorching"
-  },
-  {
-    "date": "2024-10-24T06:59:58.4825488+00:00",
-    "temperatureC": -6,
-    "temperatureF": 22,
-    "summary": "Warm"
-  },
-  {
-    "date": "2024-10-25T06:59:58.4825489+00:00",
-    "temperatureC": 25,
-    "temperatureF": 76,
-    "summary": "Balmy"
-  },
-  {
-    "date": "2024-10-26T06:59:58.4825491+00:00",
-    "temperatureC": -1,
-    "temperatureF": 31,
-    "summary": "Warm"
-  },
-  {
-    "date": "2024-10-27T06:59:58.4825492+00:00",
-    "temperatureC": 38,
-    "temperatureF": 100,
-    "summary": "Hot"
-  },
-  {
-    "date": "2024-10-28T06:59:58.4825493+00:00",
-    "temperatureC": -11,
-    "temperatureF": 13,
-    "summary": "Cool"
-  },
-  {
-    "date": "2024-10-29T06:59:58.4825494+00:00",
-    "temperatureC": -20,
-    "temperatureF": -3,
-    "summary": "Warm"
-  },
-  {
-    "date": "2024-10-30T06:59:58.4825495+00:00",
-    "temperatureC": 48,
-    "temperatureF": 118,
-    "summary": "Cool"
-  },
-  {
-    "date": "2024-10-31T06:59:58.4825496+00:00",
-    "temperatureC": 8,
-    "temperatureF": 46,
-    "summary": "Sweltering"
-  },
-  {
-    "date": "2024-11-01T06:59:58.4825497+00:00",
-    "temperatureC": -12,
-    "temperatureF": 11,
-    "summary": "Chilly"
-  },
-  {
-    "date": "2024-11-02T06:59:58.4825498+00:00",
-    "temperatureC": 27,
-    "temperatureF": 80,
-    "summary": "Balmy"
-  },
-  {
-    "date": "2024-11-03T06:59:58.48255+00:00",
-    "temperatureC": 51,
-    "temperatureF": 123,
-    "summary": "Sweltering"
-  },
-  {
-    "date": "2024-11-04T06:59:58.4825501+00:00",
-    "temperatureC": 26,
-    "temperatureF": 78,
-    "summary": "Sweltering"
-  },
-  {
-    "date": "2024-11-05T06:59:58.4825502+00:00",
-    "temperatureC": 20,
-    "temperatureF": 67,
-    "summary": "Balmy"
-  },
-  {
+  ...
+   {
     "date": "2024-11-06T06:59:58.4825503+00:00",
     "temperatureC": -16,
     "temperatureF": 4,
@@ -281,12 +134,12 @@ Lastly, run command `docker compose down` to tear down everything and release re
 
 - **CONS**:
   
-  - Developer needs to learn container technologies, further blurring the boundary of application developer and operation developer.
+  - Developer needs to learn container technologies. It further blurring the boundary between application developer and operation developer.
   - It is tool dependent. Docker Desktop is a paid product in some conditions. Some might need to find alternatives if the cost is an issue. 
 
 &nbsp;
 
-## Links for Further Reading
+## References
 
 - [Docker Compose Specification](https://docs.docker.com/reference/compose-file/develop/)
 

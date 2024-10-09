@@ -80,13 +80,16 @@ Click the Save and run button to test and verify the outcome. Check the logs in 
   - Finalize Job
 ```
 
-> **NOTES**: the creation of new pipeline creates azure-pipeline.xml file at the root directory of the source code.
+> **NOTES**:
+> 
+> - The creation of new pipeline creates azure-pipeline.xml file at the root directory of the source code.
+> - Any changes to the remote branch (PR merge/direct push) will trigger pipeline to build.
+
+---
 
 To verify the build outcome, go to `acr` Azure Repository and you will find image `webapp-server` in the list.
 
 &nbsp;
-
-
 
 ## References
 

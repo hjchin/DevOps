@@ -6,6 +6,7 @@ The journey is divided to several documents and each covers single topic. We fir
 
 In section 2, we quickly explain how container helps in developing app in a team. We have not touch on how container beneficial to application development in previous section. We dedicate section 2 for this purpose. 
 
+&nbsp;
 
 ## Section 1
 
@@ -14,10 +15,13 @@ In section 2, we quickly explain how container helps in developing app in a team
 3. [Build CI/CD with Azure DevOps Pipeline](README.Pipeline.md)
 4. [Promote Web App from Staging to Production](README.EnvPromotion.md)
 
+&nbsp;
+
 ## Section 2
 
 1. [Develop with container](WebApp/README.Develop.md)
 
+&nbsp;
 
 ## Key technologies
 Key technologies used in this document are:
