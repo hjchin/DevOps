@@ -17,13 +17,22 @@ The journey is divided to several documents and each covers single topic. We fir
 
 ## Section 2
 
-In section 2, we quickly explain how container helps in developing app in a team. We have not touch on how container beneficial to application development, we are dedicating section 2 for this purpose. 
+In section 2, we quickly explain how container helps in developing app in a team. We have not touch on how container beneficial to application development, we are dedicating section 2 for this purpose.
 
 1. [Develop with Container](WebApp/README.Develop.md)
 
 &nbsp;
 
+## Section 3
+
+This section is where kubernetes starts. We first take a quick look on the basic and summary of Kubernetes commands. The goal of this section is to build a production k8s cluster with demostration of some crucial core features.
+
+1. [Quick Glance on Kubernetes](Kubernetes/README.QuickGlance.md)
+
+&nbsp;
+
 ## Key technologies
+
 Key technologies used in this document are:
 
 * asp.net webapp
